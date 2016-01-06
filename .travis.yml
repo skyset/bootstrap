@@ -4,4 +4,7 @@ install:
 script: "html5validator"
 notifications:
   email: false
+  branches:
+  only:
+    - gh-pages
 sudo: false
