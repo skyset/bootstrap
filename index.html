@@ -60,22 +60,8 @@
       </div>
     </div>
   </nav>
-  <img src="images/banner.png" class="parallax">
+  <div class="parallax"><img class="parallax-img" src="images/youtube.svg"></div>
   <div class="container">
-    <h1>Triple Helix</h1>
-    <p>We are an FRC team based in Menchville High School.</p>
-    <br>
-    <!-- Rewrite -->
-    <!--Welcome to the website of Triple Helix, the Menchville High
-        School FIRST Robotics Competition Team in Newport News, Virginia.
-        We are FIRST team 2363, and we are pleased that you have stopped by
-        to visit! If you are new to our team, we hope that you will take
-        the time to see what we do with our robots and our community
-        outreach programs. If you are new to FIRST (For Inspiration and
-        Recognition of Science and Technology), we hope that you will take
-        the time to find out about this fascinating organization that
-        brings technology, in the form of competitive robotics events, to
-        hundreds of thousands of students worldwide.-->
     <div class="col-sm-4" style="text-align:center">
       <i class="material-icons" style="font-size:48px">group</i>
       <h3>Our Team Goal</h3>
@@ -107,7 +93,7 @@
       </button>
     </div>
   </div>
-  <footer class="container">
+  <footer class="flexible-container">
     <div class="row">
       <div class="col-sm-4" style="text-align:center">
         <h3>Sponsors</h3>
@@ -159,6 +145,16 @@
   </footer>
   <script defer src="jquery.js"></script>
   <script defer src="bootstrap.min.js"></script>
+  <script>
+    $(window).scroll(function(){
+        parallax();
+    });
+
+    function parallax(){
+        var scrolled = $(window).scrollTop();
+        $('.parallax-img').css('bottom:',-(scrolled*0.1)+'px');
+    }
+  </script>
 </body>
 
 </html>
