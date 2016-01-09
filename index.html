@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!-- Only neccesary for GitHub Pages. Remove this when we migrate to the new site. -->
   <script>
@@ -9,6 +8,9 @@
       window.location.protocol = "https:"
     }
   </script>
+
+  <!-- META -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="description" content="Menchville's FIRST robotics team!">
   <meta name="author" content="Team 2363">
@@ -23,25 +25,24 @@
   <meta property="og:image" content="helix.png">
   <meta property="og:image:width" content="256">
   <meta property="og:image:height" content="256">
+
+  <!-- LINKING -->
+
   <link rel="apple-touch-icon" href="helix.png">
   <link rel="canonical" href="https://2363web.github.io/bootstrap/">
   <link rel="icon" href="helix.png">
-<!-- mask-icon is not HTML5, apparently. remove this comment when we migrate to the new site. -->
-  <!-- <link rel="mask-icon" href="images/helix.svg" color="#ebebeb"> -->
   <link href="bootstrap.min.css" rel="prefetch stylesheet">
   <link href="bootstrap.ex.css" rel="prefetch stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>Welcome to Triple Helix</title>
+  <title>Triple Helix</title>
 </head>
-
 <body>
   <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
-          <span class="sr-only">Toggle navigation
-          </span>
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -60,7 +61,7 @@
       </div>
     </div>
   </nav>
-  <div class="parallax"><img class="parallax-img" src="images/youtube.svg"></div>
+  <div class="parallax-window" data-parallax="scroll" data-image-src="/images/placeholder.png"></div>
   <div class="container">
     <div class="col-sm-4" style="text-align:center">
       <i class="material-icons" style="font-size:48px">group</i>
@@ -143,18 +144,12 @@
       </div>
     </div>
   </footer>
-  <script defer src="jquery.js"></script>
-  <script defer src="bootstrap.min.js"></script>
-  <script>
-    $(window).scroll(function(){
-        parallax();
-    });
 
-    function parallax(){
-        var scrolled = $(window).scrollTop();
-        $('.parallax-img').css('bottom:',-(scrolled*0.1)+'px');
-    }
-  </script>
+  <!-- SCRIPTS -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="parallax.min.js"></script>
 </body>
 
 </html>
