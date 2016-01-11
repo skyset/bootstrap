@@ -14,6 +14,11 @@ body>.container {
   border: 0;
 }
 
+ /** left align text **/
+.left {
+  text-align:left
+}
+
 /** Self-explanatory **/
 
 body {

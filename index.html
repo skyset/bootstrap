@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!-- Only neccesary for GitHub Pages. Remove this when we migrate to the new site. -->
   <script>
@@ -37,8 +38,9 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Triple Helix</title>
 </head>
+
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-static-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
@@ -61,30 +63,31 @@
       </div>
     </div>
   </nav>
-  <div class="parallax-window" data-parallax="scroll" data-image-src="/images/placeholder.png"></div>
+  <div class="parallax-window" data-parallax="scroll" data-image-src="images/placeholder.png"></div>
   <div class="container">
-    <div class="col-sm-4" style="text-align:center">
-      <i class="material-icons" style="font-size:48px">group</i>
-      <h3>Our Team Goal</h3>
-      <p>Placeholder</p>
-      <!--Rewrite-->
-      <!-- We are dedicated to aiding students in their search for a variety of
-      competencies, a large number of opportunities gained through the acquisition
-      of skills, and a development of interest in STEM fields.-->
+    <div class="row">
+      <div class="col-sm-4" style="text-align:center">
+        <i class="material-icons" style="font-size:48px;color:#9c27b0">group</i>
+        <h3>Our Team Goal</h3>
+        <p class="left">We strive to inspire the next generation of innovators, to
+	          teach others gracious professionalism, to push ourselves to
+		  do our best.</p>
+      </div>
+      <div class="col-sm-4" style="text-align:center">
+        <i class="material-icons" style="font-size:48px;color:#9c27b0">build</i>
+        <h3>Learn Valuable Skills</h3>
+        <p class="left">Participation and mentorship in an accepting work environment assist members in improving their abilities.</p>
+      </div>
+      <div class="col-sm-4" style="text-align:center">
+        <i class="material-icons" style="font-size:48px;color:#9c27b0">school</i>
+        <h3>Gain Unique Experiences</h3>
+        <p class="left">Students can compete in multilevel competitions, demonstrating the skills they have developed while on the team.</p>
+      </div>
     </div>
-    <div class="col-sm-4" style="text-align:center">
-      <i class="material-icons" style="font-size:48px">build</i>
-      <h3>Learn Valuable Skills</h3>
-      <p>Participation and mentorship in an accepting work environment assist members in improving their abilities.</p>
-    </div>
-    <div class="col-sm-4" style="text-align:center">
-      <i class="material-icons" style="font-size:48px">school</i>
-      <h3>Gain Unique Experiences</h3>
-      <p>Students can compete in multilevel competitions, demonstrating the skills they have developed while on the team.</p>
-    </div>
-    <br />
+    <br>
   </div>
   <div class="container">
+    <div class="row">
     <div class="col-sm-6 col-sm-offset-3" style="text-align:center;background:#eeeeee;padding:20px;border-radius:5px;">
       <i class="material-icons" style="vertical-align:middle;font-size:36px">send</i>
       <h3>Keep in Touch</h3>
@@ -94,12 +97,16 @@
       </button>
     </div>
   </div>
-  <footer class="flexible-container">
+  </div>
+  <footer class="flexible-container container-fluid">
     <div class="row">
       <div class="col-sm-4" style="text-align:center">
         <h3>Sponsors</h3>
         <br>
-        <p>ARL, NASA</p>
+        <a href="http://www.arl.army.mil/www/default.cfm"><img alt="Army Research Lab" src="images/arl.png" width="100"></a>
+        <br>
+        <br>
+        <a href="http://www.nasa.gov"><img alt="National Aeronautics and Space Administration" src="images/nasa.png" width="100"></a>
         <br>
       </div>
       <div class="col-sm-4" style="text-align:center">
@@ -117,7 +124,7 @@
         <ul class="media_list">
           <li>
             <a href="https://www.facebook.com/people/Triple-Helix/100008807926634/">
-            <img alt="Facebook" src="images/facebook.svg">
+              <img alt="Facebook" src="images/facebook.svg">
             </a>
           </li>
           <li>
@@ -147,9 +154,9 @@
 
   <!-- SCRIPTS -->
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="parallax.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.1/parallax.min.js"></script>
 </body>
 
 </html>
