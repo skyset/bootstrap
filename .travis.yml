@@ -1,3 +1,4 @@
+sudo: false
 language: python
 install:
  - "pip install html5validator"
@@ -7,4 +8,3 @@ notifications:
   branches:
   only:
     - gh-pages
-sudo: false
