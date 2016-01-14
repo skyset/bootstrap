@@ -28,8 +28,7 @@ body>.container {
   border-radius:5px;
 }
 
- /** left align text **/
-.left {
+nav,.left {
   text-align:left
 }
 
