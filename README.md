@@ -1,23 +1,6 @@
-# bootstrap
+# bootstrap [![Build Status](https://travis-ci.org/2363web/bootstrap.svg?branch=gh-pages)](https://travis-ci.org/2363web/bootstrap)
 
-[![Build Status](https://travis-ci.org/2363web/bootstrap.svg?branch=gh-pages)](https://travis-ci.org/2363web/bootstrap)
-
-# Roadmap
-- [ ] Add all the other pages
-- [x] Add [carousel element](https://getbootstrap.com/javascript/#carousel)
-- [x] Add Material Icons font
-- [x] Add team biography
-- [x] Add team members page to the navbar
-- [x] Add social links and logos
-- [ ] Add sponsor images
-- [ ] Add team images to carousel
-- [x] Enlarge Material Icons
-- [ ] Finalize redesigned Triple Helix logo
-- [x] Fix footer width
-- [x] Fix spacing on "Keep in Touch" div
-- [x] Fix white space under footer
-- [ ] Improve introduction paragraph
-- [x] Use the Bootstrap Customizer to color the navbar yellow
+# [Roadmap](https://github.com/2363web/bootstrap/wiki/Roadmap)
 
 # Advantages over Materialize
 - [Bootstrap Customizer](https://getbootstrap.com/customize/)
