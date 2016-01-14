@@ -14,11 +14,12 @@ body>.container {
   border: 0;
 }
 
-/** CSSLint says the following element is overqualified **/
+.material-icons {
+  font-size:48px;
+}
 
-i.purple {
+.purple {
   color: #9c27b0;
-  font-size: 48px;
 }
 
 .signup {
