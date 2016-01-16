@@ -14,6 +14,17 @@ body>.container {
   border: 0;
 }
 
+.tab-content .thumbnail {
+  padding: 10px;
+  border: none;
+}
+.large-images img {
+  width: 80%;
+}
+.nav-tabs a {
+  color: purple;
+}
+
 pre > code {
   font-size:24px;
 }
