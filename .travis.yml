@@ -1,8 +1,14 @@
 sudo: false
-language: python
+language: node_js
 install:
- - "pip install html5validator"
-script: "html5validator"
+ - "npm install html-validator-cli bootlint"
+script:
+  - "html-validator --file=index.html"
+  - "html-validator --file=first/index.html"
+  - "html-validator --file=members/index.html"
+  - "bootlint index.html"
+  - "bootlint first/index.html"
+  - "bootlint members/index.html"
 notifications:
   email: false
 branches:
