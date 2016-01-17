@@ -13,7 +13,6 @@ body>.container {
 .navbar-default {
   border: 0;
 }
-
 .tab-content .thumbnail {
   padding: 10px;
   border: none;
@@ -21,30 +20,29 @@ body>.container {
 .large-images img {
   width: 80%;
 }
-.nav-tabs a {
+.nav-pills > .active > a[href], .nav-pills > .active > a[href]:focus, .nav-pills > .active > a[href]:hover {
+  background-color: #4527a0;
+  color: #fff;
+}
+.nav-pills > li > a[href] {
   color: #4527a0;
 }
-
 pre > code {
-  font-size:24px;
+  font-size: 24px;
 }
-
 .material-icons {
-  font-size:48px;
+  font-size: 48px;
 }
-
 .purple {
-  color: #4527a0;
+  color: #651fff;
 }
-
 .signup {
-  background:#eee;
-  padding:20px;
-  border-radius:5px;
+  background: #eee;
+  padding: 20px;
+  border-radius: 5px;
 }
-
-nav,.left {
-  text-align:left
+nav, .left {
+  text-align: left
 }
 
 /** Self-explanatory **/
@@ -73,18 +71,20 @@ footer p {
 
 /** Social icons **/
 
-.media_list {
+.media-list {
   display: inline-block;
   padding: 0;
 }
-.media_list > li {
+.media-list > li {
   display: inherit;
   margin: 10px;
 }
-.media_list > li > a > img {
+.media-list > li > a > img {
   width: 35px;
 }
-
+.sponsors > li > a > img {
+  width: 100px;
+}
 .parallax-window {
   min-height: 400px;
 }

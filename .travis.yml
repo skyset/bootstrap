@@ -3,12 +3,18 @@ language: node_js
 install:
  - "npm install html-validator-cli bootlint"
 script:
-  - "html-validator --file=index.html"
-  - "html-validator --file=first/index.html"
+  - "html-validator --file=contact/index.html"
+  - "html-validator --file=first.index.html"
+  - "html-validator --file=history/index.html"
   - "html-validator --file=members/index.html"
-  - "bootlint index.html"
+  - "html-validator --file=404.html"
+  - "html-validator --file=index.html"
+  - "bootlint contact/index.html"
   - "bootlint first/index.html"
+  - "bootlint history/index.html"
   - "bootlint members/index.html"
+  - "bootlint 404.html"
+  - "bootlint index.html"
 notifications:
   email: false
 branches:
