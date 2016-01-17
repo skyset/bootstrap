@@ -4,7 +4,7 @@ install:
  - "npm install html-validator-cli bootlint"
 script:
   - "html-validator --file=contact/index.html"
-  - "html-validator --file=first.index.html"
+  - "html-validator --file=first/index.html"
   - "html-validator --file=history/index.html"
   - "html-validator --file=members/index.html"
   - "html-validator --file=404.html"
