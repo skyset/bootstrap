@@ -34,7 +34,7 @@ pre > code {
   font-size: 48px;
 }
 .purple {
-  color: #651fff;
+  color: #7e57c2;
 }
 .signup {
   background: #eee;
@@ -79,8 +79,8 @@ footer p {
   display: inherit;
   margin: 10px;
 }
-.media-list > li > a > img {
-  width: 35px;
+div > ul > li > a > img {
+  width: 64px;
 }
 .sponsors > li > a > img {
   width: 100px;
