@@ -3,6 +3,9 @@
 body>.container {
   padding-top: 50px;
 }
+body {
+  padding-top: 50px;
+}
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff
 }
@@ -18,7 +21,7 @@ body>.container {
   border: none;
 }
 .large-images img {
-  width: 80%;
+  width: 60%;
 }
 .nav-pills > .active > a[href], .nav-pills > .active > a[href]:focus, .nav-pills > .active > a[href]:hover {
   background-color: #4527a0;
@@ -87,4 +90,18 @@ div > ul > li > a > img {
 }
 .parallax-window {
   min-height: 400px;
+}
+.jumbotron {
+  width: 100%;
+  margin: 0;
+  background: #7e57c2;
+  color: white;
+}
+.jumbotron h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+.jumbotron p {
+  font-weight: 100;
+  font-size: 16px;
 }
