@@ -96,6 +96,7 @@ div > ul > li > a > img {
   margin: 0;
   background: #7e57c2;
   color: white;
+  font-weight: 900;
 }
 .jumbotron p {
   font-weight: 100;
