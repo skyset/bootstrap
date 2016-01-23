@@ -36,6 +36,9 @@ pre > code {
 .material-icons {
   font-size: 48px;
 }
+.huge {
+  font-size: 64px;
+}
 .purple {
   color: #7e57c2;
 }
