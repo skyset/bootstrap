@@ -24,11 +24,11 @@ body {
   width: 60%;
 }
 .nav-pills > .active > a[href], .nav-pills > .active > a[href]:focus, .nav-pills > .active > a[href]:hover {
-  background-color: #4527a0;
+  background-color: #7e57c2;
   color: #fff;
 }
 .nav-pills > li > a[href] {
-  color: #4527a0;
+  color: #7e57c2;
 }
 pre > code {
   font-size: 24px;
