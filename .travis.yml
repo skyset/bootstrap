@@ -3,12 +3,12 @@ language: node_js
 install:
  - "npm install html-validator-cli bootlint"
 script:
+  - "html-validator --file=branding/index.html"
   - "html-validator --file=contact/index.html"
-  - "html-validator --file=first/index.html"
   - "html-validator --file=404.html"
   - "html-validator --file=index.html"
+  - "bootlint branding/index.html"
   - "bootlint contact/index.html"
-  - "bootlint first/index.html"
   - "bootlint 404.html"
   - "bootlint index.html"
 notifications:

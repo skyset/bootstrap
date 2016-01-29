@@ -47,8 +47,8 @@ pre > code {
   padding: 20px;
   border-radius: 5px;
 }
-nav, .left {
-  text-align: left
+nav {
+  text-align: left;
 }
 
 /** Self-explanatory **/
