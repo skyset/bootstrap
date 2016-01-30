@@ -23,7 +23,7 @@ body {
 .large-images img {
   width: 60%;
 }
-.nav-pills > .active > a[href], .nav-pills > .active > a[href]:focus, .nav-pills > .active > a[href]:hover {
+.nav-pills > .active {
   background-color: #7e57c2;
   color: #fff;
 }
@@ -48,7 +48,11 @@ pre > code {
   border-radius: 5px;
 }
 nav {
+<<<<<<< Updated upstream
   text-align: left;
+=======
+  text-align: left
+>>>>>>> Stashed changes
 }
 
 /** Self-explanatory **/
@@ -100,8 +104,15 @@ div > ul > li > a > img {
   background: #7e57c2;
   color: white;
   font-weight: 900;
+  text-align: left;
 }
 .jumbotron p {
   font-weight: 100;
   font-size: 16px;
+}
+
+/* MEMBERS SIDEBAR */
+
+.tab-side li {
+  display: block;
 }
