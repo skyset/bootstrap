@@ -1,12 +1,10 @@
 sudo: false
 language: node_js
+node_js:
+ - "5.5.0"
 install:
- - "npm install html-validator-cli bootlint"
+ - "npm install bootlint"
 script:
-  - "html-validator --file=branding/index.html"
-  - "html-validator --file=contact/index.html"
-  - "html-validator --file=404.html"
-  - "html-validator --file=index.html"
   - "bootlint branding/index.html"
   - "bootlint contact/index.html"
   - "bootlint 404.html"
@@ -14,5 +12,5 @@ script:
 notifications:
   email: false
 branches:
-  only:
-    - gh-pages
+  except:
+    - master
