@@ -12,5 +12,6 @@ script:
 notifications:
   email: false
 branches:
-  except:
-    - master
+  only:
+    - gh-pages
+    - /^branch-.*$/
