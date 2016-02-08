@@ -1,118 +1,95 @@
-/** Fixes for the navbar **/
-
-body>.container {
-  padding-top: 50px;
+body, th {
+  text-align: center
 }
-body {
-  padding-top: 50px;
+body, body>.container {
+  padding-top: 50px
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff
 }
 .navbar-collapse {
   border-top: none;
-  box-shadow: none;
+  box-shadow: none
 }
 .navbar-default {
-  border: 0;
+  border: 0
 }
 .tab-content .thumbnail {
   padding: 10px;
-  border: none;
+  border: none
 }
 .large-images img {
-  width: 60%;
+  width: 60%
 }
-.nav-pills > .active {
-  background-color: #7e57c2;
-  color: #fff;
+.nav-pills>.active>a[href], .nav-pills>.active>a[href]:focus, .nav-pills>.active>a[href]:hover {
+  background-color: #4527a0;
+  color: #fff
 }
-.nav-pills > li > a[href] {
-  color: #7e57c2;
+.nav-pills>li>a[href] {
+  color: #4527a0
 }
-pre > code {
-  font-size: 24px;
+pre>code {
+  font-size: 24px
 }
 .material-icons {
-  font-size: 48px;
+  font-size: 48px
 }
 .huge {
-  font-size: 64px;
+  font-size: 64px
 }
 .purple {
-  color: #7e57c2;
+  color: #7e57c2
 }
 .signup {
   background: #eee;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 5px
 }
 nav {
-<<<<<<< Updated upstream
-  text-align: left;
-=======
   text-align: left
->>>>>>> Stashed changes
 }
-
-/** Self-explanatory **/
-
 body {
-  word-wrap: break-word;
-  text-align: center;
+  word-wrap: break-word
 }
-
-/** footer background **/
-
 footer {
   padding-top: 50px;
   padding-bottom: 100px;
   width: 100%;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0;
   color: #212121;
-  background-color: #f5f5f5;
+  background-color: #f5f5f5
 }
-
-/** footer elements **/
-
 footer p {
-  margin: 10px;
+  margin: 10px
 }
-
-/** Social icons **/
-
 .media-list {
   display: inline-block;
-  padding: 0;
+  padding: 0
 }
-.media-list > li {
+.media-list>li {
   display: inherit;
-  margin: 10px;
+  margin: 10px
 }
-div > ul > li > a > img {
-  width: 64px;
+div>ul>li>a>img {
+  width: 64px
 }
-.sponsors > li > a > img {
-  width: 100px;
+.sponsors>li>a>img {
+  width: 100px
 }
 .parallax-window {
-  min-height: 400px;
+  min-height: 400px
 }
 .jumbotron {
   width: 100%;
   margin: 0;
   background: #7e57c2;
-  color: white;
-  font-weight: 900;
-  text-align: left;
+  color: #fff;
+  font-weight: 900
 }
 .jumbotron p {
   font-weight: 100;
-  font-size: 16px;
+  font-size: 16px
 }
-
-/* MEMBERS SIDEBAR */
-
-.tab-side li {
-  display: block;
+.g-signin2 {
+  display: inline-block
 }
