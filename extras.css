@@ -94,9 +94,33 @@ div>ul>li>a>img {
   display: inline-block
 }
 
-/* MEMBERS SIDEBAR */
+/* MEMBERS */
 
-.tab-side li {
-  display: block !important;
-  width: 100%;
+@media screen and (min-width: 768px) {
+  .members-nav {
+    text-align: left !important;
+  }
+  .members li {
+    border-left: 3px solid #cccccc;
+    margin: 0 !important;
+    width: 100%;
+  }
+  .members li:hover {
+    border-left: 3px solid #4527a0;
+  }
+  .members li:hover > a {
+    background: white !important;
+  }
+  .members li.active {
+    border-left: 4px solid #4527a0;
+  }
+  .members li a {
+    padding: 5px;
+    position: relative;
+    left: 20px;
+  }
+  .members > .active > a, .members > .active > a:focus, .members > .active > a:hover {
+    background-color: #fff !important;
+    color: #4527a0 !important;
+  }
 }
