@@ -93,3 +93,10 @@ div>ul>li>a>img {
 .g-signin2 {
   display: inline-block
 }
+
+/* MEMBERS SIDEBAR */
+
+.tab-side li {
+  display: block !important;
+  width: 100%;
+}
