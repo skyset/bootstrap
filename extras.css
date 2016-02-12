@@ -105,14 +105,14 @@ div>ul>li>a>img {
     margin: 0 !important;
     width: 100%;
   }
-  .members li:hover {
+  .members li:hover, .members li.active {
     border-left: 3px solid #4527a0;
+  }
+  .members li.active {
+    font-weight: 600;
   }
   .members li:hover > a {
     background: white !important;
-  }
-  .members li.active {
-    border-left: 4px solid #4527a0;
   }
   .members li a {
     padding: 5px;
