@@ -1,32 +1,32 @@
-# Operating System
+## Operating System
 
-# Browser & version
+## Browser & version
 
-# Reproducability
+## Reproducibility
 
-[x] Every time
-[x] Sometimes
-[x] Rarely
-[x] Unable to reproduce
-[x] N/A
+- [x] Every time
+- [x] Sometimes
+- [x] Rarely
+- [x] Unable to reproduce
+- [x] N/A
 
-# Type of issue
+## Type of issue
 
-[x] Security
-[x] Cosmetic/appearance
-[x] Usability
-[x] Performance
-[x] Feature or enhancement
-[x] Other (please specify)
+- [x] Security
+- [x] Cosmetic/appearance
+- [x] Usability
+- [x] Performance
+- [x] Feature or enhancement
+- [x] Other (please specify)
 
-# Description
+## Description
 
-# Steps to reproduce
+## Steps to reproduce
 
 1.
 2.
 3.
 
-# Expected result
+## Expected result
 
-# Comments
+## Comments
