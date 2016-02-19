@@ -7,6 +7,10 @@ install:
 script:
   - "bootlint branding/index.html"
   - "bootlint contact/index.html"
+  - "bootlint history/index.html"
+  - "bootlint members/index.html"
+  - "bootlint outreach/index.html"
+  - "bootlint sponsors/index.html"
   - "bootlint 404.html"
   - "bootlint index.html"
 notifications:
